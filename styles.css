@@ -41,7 +41,7 @@ body {
     font-size: 2rem;
     font-family: "Droid Serif", sans-serif;
     align-self: center;
-    background-image: linear-gradient(to right, navy 0%, blue 100%);
+    background-image: linear-gradient(to top, white, deepskyblue);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -49,7 +49,7 @@ body {
 
 #navbar__logo:hover {
     transition: all 0.4s ease;
-    background-image: linear-gradient(to right, blue 0%, navy 100%);
+    background-image: linear-gradient(to top, deepskyblue, white);
 }
 
 .navbar__btn {
@@ -64,7 +64,7 @@ body {
 
 .button {
     display: flex;
-    background-image: linear-gradient(to right, navy 0%, blue 100%);
+    background-image: linear-gradient(to top, white, deepskyblue);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -75,8 +75,43 @@ body {
 }
 
 .button:hover {
-    background: blue;
+    background: grey;
     -webkit-text-fill-color: white;
     text-decoration: none;
+}
+
+.top-box {
+    height: 50%;
+    display: flex;
+}
+
+.about-me {
+    padding-top: 75px;
+    padding-left: 15%;
+    color: whitesmoke;
+    text-align: center;
+    align-self: start;
+    width: 50%;
+    height: auto;
+}
+
+.map {
+    width: 50%;
+    height: 10%;
+    scale: 0.75;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.about-me-text {
+    padding: 5px 5px;
+}
+
+.education {
+    padding-right: 15%;
+    width: 50%;
+    color:whitesmoke;
+    align-self: auto;
+    text-align: center;
 }
 
