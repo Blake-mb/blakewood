@@ -86,13 +86,28 @@ body {
 }
 
 .about-me {
+    border-radius: 15px;
     padding-top: 75px;
     padding-left: 15%;
+    position: relative;
     color: whitesmoke;
     text-align: center;
     align-self: start;
-    width: 50%;
-    height: auto;
+    width: 45%;
+    height: 50%;
+}
+
+.about-me-text {
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 5px 5px;
+}
+
+.about-me-head {
+    background-image: linear-gradient(to top, white, deepskyblue);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .map {
@@ -103,15 +118,80 @@ body {
     overflow: hidden;
 }
 
-.about-me-text {
-    padding: 5px 5px;
-}
-
-.education {
-    padding-right: 15%;
-    width: 50%;
-    color:whitesmoke;
-    align-self: auto;
+.mid-box {
+    border-radius: 15px;
+    padding-left: 15%;
     text-align: center;
+    height: 50%;
+    width: 50%;
 }
 
+.skills {
+    margin-top: -100%;
+    margin-right: 30%;
+    padding-left: 20%;
+    color: whitesmoke;
+    align-self: start;
+}
+
+.skills-head {
+    background-image: linear-gradient(to top, white, deepskyblue);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skills-boxes {
+    border: 3px solid white;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+}
+
+.oop {
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.linux {
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.java {
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.python {
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.c {
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.pm {
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
